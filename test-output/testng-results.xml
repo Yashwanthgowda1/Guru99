@@ -1,99 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-19T21:34:17 IST" name="Suite" finished-at="2023-04-19T21:34:53 IST" duration-ms="36152">
+  <suite started-at="2023-05-22T12:13:29 IST" name="Default suite" finished-at="2023-05-22T12:30:13 IST" duration-ms="1003033">
     <groups>
     </groups>
-    <test started-at="2023-04-19T21:34:17 IST" name="Test" finished-at="2023-04-19T21:34:53 IST" duration-ms="36152">
-      <class name="guru99.titleverifycation">
-        <test-method is-config="true" signature="oprnbrowser()[pri:0, instance:guru99.titleverifycation@5562c41e]" started-at="2023-04-19T21:34:39 IST" name="oprnbrowser" finished-at="2023-04-19T21:34:44 IST" duration-ms="4992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oprnbrowser -->
-        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:guru99.titleverifycation@5562c41e]" started-at="2023-04-19T21:34:44 IST" name="logintoapplication" finished-at="2023-04-19T21:34:44 IST" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoapplication -->
-        <test-method signature="test1()[pri:0, instance:guru99.titleverifycation@5562c41e]" started-at="2023-04-19T21:34:44 IST" name="test1" finished-at="2023-04-19T21:34:45 IST" duration-ms="1513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="quite()[pri:0, instance:guru99.titleverifycation@5562c41e]" started-at="2023-04-19T21:34:45 IST" name="quite" finished-at="2023-04-19T21:34:45 IST" duration-ms="171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quite -->
-        <test-method is-config="true" signature="close()[pri:0, instance:guru99.titleverifycation@5562c41e]" started-at="2023-04-19T21:34:45 IST" name="close" finished-at="2023-04-19T21:34:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- guru99.titleverifycation -->
-      <class name="guru99.testscriptlogin1">
-        <test-method is-config="true" signature="oprnbrowser()[pri:0, instance:guru99.testscriptlogin1@4d465b11]" started-at="2023-04-19T21:34:33 IST" name="oprnbrowser" finished-at="2023-04-19T21:34:37 IST" duration-ms="4273" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oprnbrowser -->
-        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:guru99.testscriptlogin1@4d465b11]" started-at="2023-04-19T21:34:37 IST" name="logintoapplication" finished-at="2023-04-19T21:34:37 IST" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoapplication -->
-        <test-method signature="test1()[pri:0, instance:guru99.testscriptlogin1@4d465b11]" started-at="2023-04-19T21:34:37 IST" name="test1" finished-at="2023-04-19T21:34:38 IST" duration-ms="1355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:guru99.testscriptlogin1@4d465b11]" started-at="2023-04-19T21:34:38 IST" name="close" finished-at="2023-04-19T21:34:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="quite()[pri:0, instance:guru99.testscriptlogin1@4d465b11]" started-at="2023-04-19T21:34:38 IST" name="quite" finished-at="2023-04-19T21:34:39 IST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quite -->
-      </class> <!-- guru99.testscriptlogin1 -->
+    <test started-at="2023-05-22T12:13:29 IST" name="Default test" finished-at="2023-05-22T12:30:13 IST" duration-ms="1003033">
       <class name="guru99.homepageverifiactionmanger">
-        <test-method is-config="true" signature="oprnbrowser()[pri:0, instance:guru99.homepageverifiactionmanger@32ee6fee]" started-at="2023-04-19T21:34:45 IST" name="oprnbrowser" finished-at="2023-04-19T21:34:50 IST" duration-ms="4590" status="PASS">
+        <test-method is-config="true" signature="oprnbrowser()[pri:0, instance:guru99.homepageverifiactionmanger@16a0ee18]" started-at="2023-05-22T12:13:30 IST" name="oprnbrowser" finished-at="2023-05-22T12:13:32 IST" duration-ms="2366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oprnbrowser -->
-        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:guru99.homepageverifiactionmanger@32ee6fee]" started-at="2023-04-19T21:34:50 IST" name="logintoapplication" finished-at="2023-04-19T21:34:50 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:guru99.homepageverifiactionmanger@16a0ee18]" started-at="2023-05-22T12:13:32 IST" name="logintoapplication" finished-at="2023-05-22T12:30:13 IST" duration-ms="1000626" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt="Guru99 Demo Sites"]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YASHWANTH', ip: '192.168.240.226', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\yashu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb4f06adeffdf43586de65a31bc94734
+*** Element info: {Using=xpath, value=//img[@alt="Guru99 Demo Sites"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt="Guru99 Demo Sites"]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YASHWANTH', ip: '192.168.240.226', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\yashu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb4f06adeffdf43586de65a31bc94734
+*** Element info: {Using=xpath, value=//img[@alt="Guru99 Demo Sites"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at generic_library.Baseclass.logintoapplication(Baseclass.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoapplication -->
-        <test-method signature="test1()[pri:0, instance:guru99.homepageverifiactionmanger@32ee6fee]" started-at="2023-04-19T21:34:50 IST" name="test1" finished-at="2023-04-19T21:34:53 IST" duration-ms="2842" status="PASS">
+        <test-method signature="test1()[pri:0, instance:guru99.homepageverifiactionmanger@16a0ee18]" started-at="2023-05-22T12:30:13 IST" name="test1" finished-at="2023-05-22T12:30:13 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt="Guru99 Demo Sites"]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YASHWANTH', ip: '192.168.240.226', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\yashu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb4f06adeffdf43586de65a31bc94734
+*** Element info: {Using=xpath, value=//img[@alt="Guru99 Demo Sites"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt="Guru99 Demo Sites"]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YASHWANTH', ip: '192.168.240.226', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\yashu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb4f06adeffdf43586de65a31bc94734
+*** Element info: {Using=xpath, value=//img[@alt="Guru99 Demo Sites"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at generic_library.Baseclass.logintoapplication(Baseclass.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:guru99.homepageverifiactionmanger@32ee6fee]" started-at="2023-04-19T21:34:53 IST" name="close" finished-at="2023-04-19T21:34:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:guru99.homepageverifiactionmanger@16a0ee18]" started-at="2023-05-22T12:30:13 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684738813017" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="quite()[pri:0, instance:guru99.homepageverifiactionmanger@32ee6fee]" started-at="2023-04-19T21:34:53 IST" name="quite" finished-at="2023-04-19T21:34:53 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="quite()[pri:0, instance:guru99.homepageverifiactionmanger@16a0ee18]" started-at="2023-05-22T12:30:13 IST" name="quite" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684738813018" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quite -->
       </class> <!-- guru99.homepageverifiactionmanger -->
-      <class name="guru99.testscriptinavilddata">
-        <test-method is-config="true" signature="oprnbrowser()[pri:0, instance:guru99.testscriptinavilddata@5fbdfdcf]" started-at="2023-04-19T21:34:17 IST" name="oprnbrowser" finished-at="2023-04-19T21:34:26 IST" duration-ms="9269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oprnbrowser -->
-        <test-method is-config="true" signature="logintoapplication()[pri:0, instance:guru99.testscriptinavilddata@5fbdfdcf]" started-at="2023-04-19T21:34:26 IST" name="logintoapplication" finished-at="2023-04-19T21:34:28 IST" duration-ms="1579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintoapplication -->
-        <test-method signature="test1()[pri:0, instance:guru99.testscriptinavilddata@5fbdfdcf]" started-at="2023-04-19T21:34:28 IST" name="test1" finished-at="2023-04-19T21:34:32 IST" duration-ms="4508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:guru99.testscriptinavilddata@5fbdfdcf]" started-at="2023-04-19T21:34:32 IST" name="close" finished-at="2023-04-19T21:34:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="quite()[pri:0, instance:guru99.testscriptinavilddata@5fbdfdcf]" started-at="2023-04-19T21:34:32 IST" name="quite" finished-at="2023-04-19T21:34:33 IST" duration-ms="399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quite -->
-      </class> <!-- guru99.testscriptinavilddata -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

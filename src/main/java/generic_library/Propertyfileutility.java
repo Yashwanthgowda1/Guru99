@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Properties;
+import java.util.Properties;import org.apache.hc.core5.http.Message;
 
 public class Propertyfileutility {
 
@@ -13,6 +13,8 @@ public class Propertyfileutility {
 	 * this method is used to initilize property file
 	 * @param filepath
 	 * @param Key
+	 * 
+
 	 */
 public void propertyconfg(String filepath ) {
 	FileInputStream fis=null;//filenotfoundexception
@@ -49,32 +51,32 @@ public String fetchproperty(String key) {//by passing a value fetching a data
 
 /**
  * this method is used to write the data into property file
+ * @param key 
  * @param key
+ * @param value 
  * @param value
+ * @param filepath 
+ * @param message 
  * @param filePath
  * @param message
  */
-public void setDataToprorprty(String key, String value,String filePath,String message) {
-	
+public void setDataToprorprty(String key, String value, String filepath, String message) {
 	property.put(key, value);
-	
-	
-	/*
-	
-FileOutputStream fos=new FileOutputStream(filePath);
-property.store(fos, message);
-*/
+	FileOutputStream fos;
 
-		try {
-			property.store(new FileOutputStream(filePath), message);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	try {
+		property.store(new FileOutputStream(filepath), message);
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
 	
 
+	
 }
+
 }

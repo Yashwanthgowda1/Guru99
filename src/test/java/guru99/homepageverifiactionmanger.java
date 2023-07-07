@@ -9,6 +9,8 @@ public class homepageverifiactionmanger extends Baseclass {
 	@Test
 	public void test1() throws InterruptedException {
 	SoftAssert soft=new SoftAssert();
+	
+
 	login.setuserId(excel.readData("Sheet1", 0, 1));
 	login.setpassword(excel.readData("Sheet1", 1, 1));
 	login.clicklogin();
