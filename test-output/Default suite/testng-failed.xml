@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="guru99.homepageverifiactionmanger">
+      <class name="guru99.testscriptinavilddata">
         <methods>
           <include name="oprnbrowser"/>
-          <include name="test1"/>
           <include name="close"/>
           <include name="quite"/>
           <include name="logintoapplication"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- guru99.homepageverifiactionmanger -->
+      </class> <!-- guru99.testscriptinavilddata -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

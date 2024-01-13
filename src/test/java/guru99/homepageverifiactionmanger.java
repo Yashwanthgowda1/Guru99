@@ -1,7 +1,7 @@
 package guru99;
 
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;import com.google.common.util.concurrent.ExecutionList;
+import org.testng.asserts.SoftAssert;
 
 import generic_library.Baseclass;
 
